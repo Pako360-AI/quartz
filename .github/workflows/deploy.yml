@@ -33,8 +33,9 @@ jobs:
         run: npm ci || npm install
 
       - name: Build Quartz
-        run: npm run build || npx quartz build
-
+        run: |
+          npx tsx quartz/bootstrap-cli.mjs build
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
