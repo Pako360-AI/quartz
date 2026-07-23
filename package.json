@@ -19,7 +19,9 @@
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "install-plugins": "npx tsx ./quartz/plugins/loader/install-plugins.ts",
-    "prebuild": "npm run install-plugins"
+    "prebuild": "npm run install-plugins",
+    "dev": "npx quartz build --serve --port 8085 --wsPort 3085",
+    "sync-site": "./sync.sh"
   },
   "engines": {
     "npm": ">=10.9.2",
@@ -60,7 +62,7 @@
     "remark-rehype": "^11.1.2",
     "rfdc": "^1.4.1",
     "serve-handler": "^6.1.6",
-    "sharp": "^0.34.5",
+    "sharp": "^0.35.3",
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "unified": "^11.0.5",
