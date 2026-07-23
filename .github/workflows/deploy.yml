@@ -27,10 +27,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: 22
 
       - name: Install Dependencies
-        run: npm install --legacy-peer-deps
+        run: npm ci || npm install
 
       - name: Build Quartz
         run: npx quartz build
