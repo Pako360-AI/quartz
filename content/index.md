@@ -10,7 +10,7 @@ My Obsidian notes in MarkDown format.
 ![[Nuevo_banner_linkedin.png|697]]
 
 [[whoami]]
-[[CV]]
+[[CV M365]]
 
 ---
 cd myPrivateNotes
