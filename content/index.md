@@ -1,5 +1,6 @@
 ---
-title: Inicio
+title: Pako 360
+publish: true
 ---
 
 # Mi Vault de Obsidian

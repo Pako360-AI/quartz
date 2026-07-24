@@ -1,3 +1,11 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+body, page, .page, .left, .center, .right, .footer {
+  background-color: #000000 !important;
+}
+
+// Color del gráfico de nodos
+.graph svg {
+  background: transparent !important;
+}
